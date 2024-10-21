@@ -1,0 +1,21 @@
+Runnable and Callable both are functional interface
+Runnable run method doesn't return anything
+Callable call method has a return type , the return type which comes from a call is called Future object
+call is async call , we can apply get method directly on Future object 
+
+Can we cancel a promise or not?
+
+Future object call can be cancelled
+
+If we have 100 cores then there will be 200 threads.
+
+
+In normal java , if we create multiple threads , each thread is not doing much , leads to Thread Explosion
+Instead create a thread poll by
+ExecutorService executor =  Executors.newFixedThreadPoll(3);
+By this we can limit the number of threads
+
+
+8:48 -> 53%
+9:00 -> 44%
+
