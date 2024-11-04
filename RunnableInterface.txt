@@ -16,6 +16,13 @@ ExecutorService executor =  Executors.newFixedThreadPoll(3);
 By this we can limit the number of threads
 
 
+Callables produce Future obj , apply get method on it to retreive the result
+
+Discharging
 8:48 -> 53%
 9:00 -> 44%
+9:25 -> 24%
 
+Charging
+9:48 -> 39%
+10:00 -> 52%
