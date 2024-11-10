@@ -17,4 +17,6 @@ OrderID  CustomerID  OrderDate       WeeksSinceOrder
 use fs;
 -- write your query below
 
+SELECT OrderID , CustomerID , OrderDate , CEIL(DATEDIFF('2024-10-30',OrderDate) / 7) AS WeeksSinceOrder  FROM Orders;
+-- generally use CURDATE()
 

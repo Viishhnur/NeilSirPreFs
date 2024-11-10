@@ -12,32 +12,31 @@ TABLE Customers
   PhoneNumber VARCHAR(20)
 
 
-TABLE Products 
-==============
+  TABLE Products 
+  ==============
 
-  ProductID INT PRIMARY KEY,
+    ProductID INT PRIMARY KEY,
 
-  Name VARCHAR(255),
+    Name VARCHAR(255),
 
-  Description VARCHAR(255),
+    Description VARCHAR(255),
 
-  Price DECIMAL(10, 2)
+    Price DECIMAL(10, 2)
 
-TABLE Orders 
-============
+  TABLE Orders 
+  ============
 
-  OrderID INT PRIMARY KEY,
+    OrderID INT PRIMARY KEY,
 
-  CustomerID INT,
+    CustomerID INT,
 
-  OrderDate DATE,
+    OrderDate DATE,
 
-  TotalCost DECIMAL(10, 2),
+    TotalCost DECIMAL(10, 2),
 
-  Status VARCHAR(20),
+    Status VARCHAR(20),
 
-  FOREIGN KEY (CustomerID) REFERENCES Customers(CustomerID)
-
+    FOREIGN KEY (CustomerID) REFERENCES Customers(CustomerID)
 
 TABLE OrderItems 
 ================

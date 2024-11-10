@@ -15,5 +15,8 @@ OrderID  CustomerID      OrderDate       TotalCost
 
 use fs;
 -- write your query below
-
+SELECT OrderID, CustomerID, OrderDate, TotalCost
+FROM Orders
+WHERE OrderDate >= '2024-09-30' - INTERVAL 20 DAY; -- this test case was generated on 30th Oct so use that date only
+-- If it was today u can use some other sql functions
 

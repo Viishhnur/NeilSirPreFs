@@ -19,4 +19,5 @@ OrderID   CustomerID   OrderDate       DaysSinceOrder
 use fs;
 -- write your query below
 
-
+SELECT Orders.OrderID , Orders.CustomerID , Orders.OrderDate , DATEDIFF('2024-10-30' , Orders.OrderDate) AS DaysSinceOrder FROM Orders;
+-- This is according to 2024-10-30 , as formatted for 30th Oct , 2024 

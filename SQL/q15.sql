@@ -13,5 +13,7 @@ OrderID  CustomerID   OrderDate
 
 use fs;
 -- write your query below
-
+SELECT Orders.OrderID , Orders.CustomerID , Orders.OrderDate FROM Orders
+WHERE DAYOFWEEK(Orders.OrderDate) = 1 OR DAYOFWEEK(Orders.OrderDate) = 7;
+-- DAYOFWEEK() returns a number between 1 to 7 , 1-> Sunday , 2-> Monday ...... 7 -> Saturday
 

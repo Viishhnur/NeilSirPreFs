@@ -17,4 +17,7 @@ OrderID  CustomerID   OrderDate
 use fs;
 -- write your query below
 
+SELECT Orders.OrderID , Orders.CustomerID , Orders.OrderDate FROM Orders
+WHERE DATE_FORMAT(Orders.OrderDate,'%m') = '10';
+
 

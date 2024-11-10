@@ -15,4 +15,7 @@ CustomerID      Name    Email
 use fs;
 -- write your query below
 
+SELECT Customers.CustomerID , Customers.Name , Customers.Email FROM Customers
+WHERE Customers.Email LIKE "%example.com";
+
 

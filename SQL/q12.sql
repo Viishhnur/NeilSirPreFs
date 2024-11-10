@@ -19,3 +19,4 @@ use fs;
 -- write your query below
 
 
+SELECT Orders.OrderID , Orders.CustomerID , DATE_FORMAT(Orders.OrderDate,'%m') AS OrderMonth , DATE_FORMAT(Orders.OrderDate,'%Y') AS OrderYear FROM Orders;

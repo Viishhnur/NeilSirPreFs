@@ -17,4 +17,5 @@ sivaD eilrahC   example.com
 use fs;
 -- write your query below
 
+SELECT REVERSE(SUBSTRING(Customers.Email, 1 , Locate('@',Customers.Email) - 1)) AS ReversedName , SUBSTRING(Customers.Email , Locate('@',Customers.Email) + 1) AS EmailDomain ;
 
