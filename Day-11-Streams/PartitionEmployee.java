@@ -1,3 +1,5 @@
+// 22nd Oct
+
 /*
 You have a list of employee objects representing the company's staff, 
 with each object containing the following attributes:
@@ -85,7 +87,7 @@ class Employee {
 }
 
     
-public class Day13P1{
+public class PartitionEmployee{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

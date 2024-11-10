@@ -54,7 +54,7 @@ a
  */
 // Since this is sorted array of characters we can also use binary search to find the successor.
 import java.util.Scanner;
-public class Day10P2{
+public class P2SuccessorCharacter{
     
     private static char getSuccessorBinarySearch(char[] alphas,char clue){
         int low = 0 , high = alphas.length-1;

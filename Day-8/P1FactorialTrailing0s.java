@@ -1,3 +1,5 @@
+// 10th Oct
+
 /*
 The problem presented to the participants is to find how many zeros appear at 
 the end of the factorial of a given number, N. Factorials grow very fast, and 
@@ -47,7 +49,7 @@ Sample Output-2:
  */
 import java.util.Scanner;
 
-public class Day10P1FactTrailingZeros {
+public class P1FactorialTrailing0s {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();

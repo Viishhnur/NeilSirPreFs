@@ -49,7 +49,7 @@ class Employee {
 
 }
 
-public class Day11P2EmpManag {
+public class P2EmpManag {
     private static Map<String, Double> customSortEmp(List<Employee> employees) {
         Map<String, Double> res = employees.stream()
                 .collect(Collectors.groupingBy(

@@ -1,4 +1,3 @@
-
 /*
 In a township of size N×N, each 1x1 area is either a villa or a swimming pool. 
 The layout of the township is represented as a 2D matrix of size N×N, 

@@ -77,7 +77,7 @@ class Student {
 
 }
 
-public class Day12P2 {
+public class P2StudentGrade {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

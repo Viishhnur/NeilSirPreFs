@@ -1,3 +1,5 @@
+// 14th Oct
+
 /*
 You are tasked with building a Person Management System that processes a list 
 of Person objects using Java Streams. Each Person object contains the following 
@@ -81,7 +83,7 @@ class Person{
         return "Person{name='" + name + ", " + "age=" + age + ", " + "location='" + location + "'}";
     }
 }
-public class Day11P1PersonManag{
+public class P1PersonManag{
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();

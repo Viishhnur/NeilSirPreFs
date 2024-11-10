@@ -60,7 +60,7 @@ Since not everyone can receive their correct change, the answer is false.
 
  */
 import java.util.Scanner;
-public class Day10P3 {
+public class P3TicketChange {
     private static boolean canProvideTickets2(int[] notes){
         int twentyFive = 0, fifty = 0;
         for(int i=0;i<notes.length;i++){

@@ -1,3 +1,5 @@
+// 4th Nov
+
 /*
 You are a warehouse manager responsible for distributing packages across different 
 storage bins to minimize the maximum load in any single bin. You are given an 
@@ -70,7 +72,7 @@ After these operations, the package with the highest load has 8 items,
  */
 import java.util.*;
 
-public class Day22P1{
+public class MaxLoad{
 
     private static boolean canAcheiveMaxLoad(int[] packages,int maxLoad,int maxSplits){
         int curr_splits = 0;

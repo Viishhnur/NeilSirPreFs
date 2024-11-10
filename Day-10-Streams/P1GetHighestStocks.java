@@ -1,3 +1,4 @@
+// 15th Oct 
 
 /*
 You are given a list of Product objects with fields name, category, and price. 
@@ -40,10 +41,10 @@ Electronics
 */
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Scanner;
-import java.util.stream.Collectors;
 import java.util.Map;
 import java.util.Map.Entry;
+import java.util.Scanner;
+import java.util.stream.Collectors;
 
 class Product {
 	private String name;
@@ -81,7 +82,7 @@ class Product {
 
 }
 
-public class Day12P1 {
+public class P1GetHighestStocks {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 
