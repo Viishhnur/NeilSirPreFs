@@ -1,4 +1,3 @@
-// 8th Oct
 
 /*
 To maximize energy efficiency and lighting optimization, you are allowed to perform 
